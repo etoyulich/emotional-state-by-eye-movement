@@ -14,7 +14,7 @@ elif len(sys.argv) > 2: # если передано больше 2 аргуме�
     print("Too many command line arguments\n")
 else: # иначе
     if not sys.argv[1].endswith('.csv'): # если входной файл имеет не .csv расширение
-        print("Invalid input data. The output file must have the .csv extension. \n")
+        print("Invalid input data. The input file must have the .csv extension. \n")
     else: # иначе
         loaded_model = load_model('emotional_state.h5') # выгрузить модель
 
